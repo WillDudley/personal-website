@@ -149,7 +149,7 @@ export const footer: FooterConfig = {
 
 export const date: DateConfig = {
   toPublishedString: {
-    locales: 'en-US',
+    locales: 'en-GB',
     options: {
       weekday: 'short',
       month: 'short',
@@ -157,7 +157,7 @@ export const date: DateConfig = {
     }
   },
   toUpdatedString: {
-    locales: 'en-US',
+    locales: 'en-GB',
     options: {
       year: '2-digit',
       weekday: 'long',
