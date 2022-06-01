@@ -10,7 +10,6 @@ export const site: SiteConfig = {
   author: {
     name: 'William Dudley',
     photo: '/assets/profile-pic-prague-192.png',
-    status: 'status',
     bio: 'Human-in-the-Loop Reinforcement Learning'
   },
   themeColor: '#3D4451'
