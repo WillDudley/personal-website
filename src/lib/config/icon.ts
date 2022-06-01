@@ -25,13 +25,13 @@ export const icon: IconConfig = {
     purpose: 'any'
   },
   maskable192: {
-    src: site.protocol + site.domain + '/assets/maskable@192.png',
+    src: site.protocol + site.domain + '/assets/profile-pic-prague-192.png',
     sizes: '192x192',
     type: 'image/png',
     purpose: 'maskable'
   },
   maskable512: {
-    src: site.protocol + site.domain + '/assets/maskable@512.png',
+    src: site.protocol + site.domain + '/assets/profile-pic-prague-512.png',
     sizes: '512x512',
     type: 'image/png',
     purpose: 'maskable'

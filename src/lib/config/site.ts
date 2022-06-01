@@ -8,10 +8,10 @@ export const site: SiteConfig = {
   lang: 'en-US',
   description: 'Powered by SvelteKit/Urara',
   author: {
-    name: 'John Doe',
-    photo: '/assets/maskable@192.png',
-    status: '🌸',
-    bio: 'lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+    name: 'William Dudley',
+    photo: '/assets/profile-pic-prague-192.png',
+    status: 'status',
+    bio: 'Human-in-the-Loop Reinforcement Learning'
   },
   themeColor: '#3D4451'
 }
