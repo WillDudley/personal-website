@@ -134,18 +134,18 @@ export const header: HeaderConfig = {
   ]
 }
 
-// export const footer: FooterConfig = {
-//   nav: [
-//     {
-//       text: 'Feed',
-//       link: '/atom.xml'
-//     },
-//     {
-//       text: 'Sitemap',
-//       link: '/sitemap.xml'
-//     }
-//   ]
-// }
+export const footer: FooterConfig = {
+  nav: [
+    // {
+    //   text: 'Feed',
+    //   link: '/atom.xml'
+    // },
+    // {
+    //   text: 'Sitemap',
+    //   link: '/sitemap.xml'
+    // }
+  ]
+}
 
 export const date: DateConfig = {
   toPublishedString: {
