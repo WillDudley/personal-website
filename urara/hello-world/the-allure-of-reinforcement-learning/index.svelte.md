@@ -1,6 +1,6 @@
 ---
-title: The Allure of Reinforcement Learning (unf)
-date: 2022-06-03
+title: The Allure of Reinforcement Learning
+date: 2022-06-19
 priority: 501
 tags: ['Reinforcement Learning']
 ---
@@ -40,7 +40,11 @@ TD learning is the foundation for many, if not all, RL algorithms used in practi
 
 ## Mathematics isn't the only field to notice TD learning
 
-If the coolness of TD learning from the above perspective isn't enough, this learning paradigm has been derived from a neuroscience perspective.
+If the coolness of TD learning from the above perspective isn’t enough, this learning paradigm has been derived from a neuroscience perspective. Hebb’s rule, commonly known as “neurons that fire together, wire together”, has been empirically shown to be true since the 1970s. As sensor technology has improved, experimentalists have been able to study neuronal dynamics at a very fine resolution. This has led to the observation that the shorter the time between two firing neurons, the more of a learning effect there is.
+
+All this neuroscience, both experimental and theoretical, has led to the development of models that describe “Hebbian learning”. This is, imaginably, an extremely large area of research. However, a key observation is that neurons also learn proportional to the difference in time between firings. Thus, they use temporal difference learning! Some people may not be surprised at this, particularly if they think temporal differences are fundamentally necessary to learning how to act in the world. However, to other people, it can be very reassuring to see models derived from theory be validated in the real world.
+
+(Interested in more cognitive neuroscience? Check out chapter 19 of [Neuronal Dynamics](https://neuronaldynamics.epfl.ch/online/index.html) - the entire book is brilliant)
 
 ## RL is cool, but there's more to discover
 
@@ -51,7 +55,7 @@ There's still so much more to discover. However, when RL does become a prominent
 
 
 
-
+#### Footnotes
 
 [^1] There's a theme to unpick here that has been present all my life, relating to living with brain damage - but that's for a different blogpost.
 
